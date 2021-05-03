@@ -1,18 +1,18 @@
-function pageLoad() {
+function contactLoad() {
 
     let content = document.querySelector('.content');
     let menu = document.createElement("nav");
     let ulist = document.createElement("ul");
-    let ilist1 = document.createElement("li");
-    let ilist2 = document.createElement("li");
-    let ilist3 = document.createElement("li");
+    let ilist1 = document.createElement("li")
+    let ilist2 = document.createElement("li")
+    let ilist3 = document.createElement("li")
     let image = document.createElement('img');
     let heading = document.createElement('h1');
     let text = document.createElement('p');
 
     image.src = "http://www.wingwing.co.uk/wp-content/uploads/2017/05/Signature-Large-Wings_R-1600x1156.jpg";
-    heading.innerText = "Wing-Wing";
-    text.innerText = "This is the greatest fried chicken restaurant of all time.";
+    heading.innerText = "Contact Us";
+    text.innerText = "You can get in touch with us via carrier pidgeon by sending it to Elthorne Park and we'll pick it up, cheers";
     ilist1.innerText = "HOME";
     ilist2.innerText = "MENU";
     ilist3.innerText = "CONTACT";
@@ -31,4 +31,4 @@ function pageLoad() {
 
 }
 
-export { pageLoad }
+export { contactLoad }
