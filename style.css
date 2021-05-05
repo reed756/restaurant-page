@@ -16,6 +16,18 @@ ul {
 
 li {
     list-style-type: none;
+    color: orangered;
+    font-size: x-large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li:hover {
+    color: red;
+}
+
+li:active {
+    color: darkred;
 }
 
 img {
@@ -25,8 +37,15 @@ img {
 
 h1 {
     grid-column: 2 / 3;
+    color: orangered;
+    font-size: 50px;
 }
 
 p {
     grid-column: 2 / 3;
+}
+
+body, html {
+    background-color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
