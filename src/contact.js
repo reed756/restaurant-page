@@ -10,7 +10,7 @@ function contactLoad() {
     let heading = document.createElement('h1');
     let text = document.createElement('p');
 
-    image.src = "http://www.wingwing.co.uk/wp-content/uploads/2017/05/Signature-Large-Wings_R-1600x1156.jpg";
+    image.src = "https://www.technipages.com/wp-content/uploads/2016/05/iOS-Messages-App-Icon-1280x720.png";
     heading.innerText = "Contact Us";
     text.innerText = "You can get in touch with us via carrier pidgeon by sending it to Elthorne Park and we'll pick it up, cheers";
     ilist1.innerText = "HOME";
