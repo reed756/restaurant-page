@@ -10,7 +10,7 @@ function menuLoad() {
     let heading = document.createElement('h1');
     let text = document.createElement('p');
 
-    image.src = "http://www.wingwing.co.uk/wp-content/uploads/2017/05/Signature-Large-Wings_R-1600x1156.jpg";
+    image.src = "https://lh3.googleusercontent.com/proxy/10RD_uVY_4VJPwJwafwjx8TubWY40QqNlLe_iU8B1CuCL6_EUlBEBdKaPu-ByUSOyqZNtid-p5Ddatf0kqtXWTGOrwkk8h8o82mbfhooqGClgb7oON-EPky-SA";
     heading.innerText = "Menu";
     text.innerText = "We only have one thing on the menu here and it's called deep fried Chicken Wings covered in Soy & Garlic";
     ilist1.innerText = "HOME";
